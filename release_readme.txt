@@ -1,0 +1,1 @@
+The release branch intended to save current version of product weakly.
