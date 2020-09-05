@@ -9,9 +9,9 @@ CREATE TABLE order_status
     PRIMARY KEY (id)
 );
 
-DROP TABLE IF EXISTS order cascade;
+DROP TABLE IF EXISTS `order` cascade;
 
-CREATE TABLE order
+CREATE TABLE `order`
 (
     id              INT  NOT NULL,
     store_id        INT  NULL,
